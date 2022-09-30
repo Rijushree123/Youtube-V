@@ -1,0 +1,70 @@
+body{
+    background: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=pexels-s-migaj-747964.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100vh;
+}
+.wrapper{
+    width:350px;
+    margin:8% auto;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.23);
+	box-shadow: 0 0 17px rgb(25, 24, 24);
+}
+.heading {
+	text-align: center;
+	padding-top: 40px;
+}
+.heading h1 {
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 90px;
+}
+
+form {
+	text-align: center;
+}
+form input,button{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    box-sizing: border-box;
+	font-size: 15px;
+	color: rgb(24, 23, 23);
+    border-radius: 10px;
+}
+form input{
+    padding-left: 40px;
+}
+form i {
+	position: absolute;
+	left: 15px;
+	color: #333;
+	font-size: 17px;
+	top: 2px;
+}
+form span {
+	position: relative;
+}
+form ::placeholder {
+    color: rgb(119, 119, 165);
+    font-weight: bold;
+  }
+form button {
+	padding-left: 0;
+	background-color: #337af4;
+	letter-spacing: 1px;
+	font-weight: bold;
+    border-radius: 15px;
+}
+form button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #b511f6;
+    color:white;
+}
+
